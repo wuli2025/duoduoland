@@ -1,0 +1,206 @@
+{
+  "name": "寻找技术合伙人的 AI 应用创业者",
+  "eventId": "ai-agent-night",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ]
+  },
+  "localMs": 23,
+  "local": [
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.66
+      },
+      "reason": "裴川公开了端侧推理经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.66
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.66
+      },
+      "reason": "可以找陆望聊多模态视频生成，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.66
+      },
+      "reason": "可以找秦朗聊MLOps，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.66
+      },
+      "reason": "江尧公开了Agent 编排经验，也希望认识创始人。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的工程师数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "llmMs": 24816,
+  "remote": [
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.9179999999999999,
+        "needBA": 0.846
+      },
+      "reason": "江尧擅长Agent 编排，可结合你的企业客户渠道全职共创"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 90,
+      "factors": {
+        "needAB": 0.8939999999999999,
+        "needBA": 0.828
+      },
+      "reason": "许棠擅长RAG 知识库，可结合你的客户渠道全职共创"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.8520000000000001,
+        "needBA": 0.792
+      },
+      "reason": "裴川擅长端侧推理，可与你全职共创并承接技术部署"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.8460000000000001,
+        "needBA": 0.786
+      },
+      "reason": "秦朗擅长MLOps，可作为早期员工支持你的技术平台建设"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.8460000000000001,
+        "needBA": 0.774
+      },
+      "reason": "陆望擅长多模态视频生成，可与你探索产品并全职合作"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的工程师数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "dropped": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

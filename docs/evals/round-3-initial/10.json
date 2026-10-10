@@ -1,0 +1,198 @@
+{
+  "name": "想加入早期 AI 项目的大模型工程师",
+  "eventId": "demo-day",
+  "intent": {
+    "seekRoles": [
+      "创始人"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "技术",
+      "RAG原型",
+      "推理部署"
+    ],
+    "city": "",
+    "cooperation": [
+      "早期员工",
+      "联合创始人"
+    ],
+    "availability": [
+      "全职"
+    ]
+  },
+  "localMs": 35,
+  "local": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "沈律公开了法律产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 90,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 1
+      },
+      "reason": "乔南关注Agent；你找创始人，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 1
+      },
+      "reason": "可以找程砚聊LLM，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.7833333333333333
+      },
+      "reason": "林昭公开了金融产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-66",
+      "public": {
+        "profile": {
+          "name": "孟舒",
+          "title": "AI 医疗创始人"
+        }
+      },
+      "score": 82,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.675
+      },
+      "reason": "孟舒公开了医疗产品经验，也希望认识工程师。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "llmMs": 25862,
+  "remote": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 95,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.988
+      },
+      "reason": "沈律有“律所客户渠道”，明确寻找RAG工程师，合作条件相符"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9059999999999999,
+        "needBA": 0.976
+      },
+      "reason": "乔南提供“海外客户渠道”，寻找Agent技术伙伴，支持全职加入"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.8999999999999999,
+        "needBA": 0.964
+      },
+      "reason": "程砚有“企业客户渠道”和付费客户，寻找全职技术伙伴"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.8760000000000001,
+        "needBA": 0.8473333333333334
+      },
+      "reason": "林昭提供“金融行业数据”，寻找工程师，双方全职合作条件相符"
+    },
+    {
+      "id": "person-66",
+      "public": {
+        "profile": {
+          "name": "孟舒",
+          "title": "AI 医疗创始人"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.8580000000000001,
+        "needBA": 0.78
+      },
+      "reason": "孟舒提供“医院场景”，寻找技术合伙人，支持全职早期加入"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

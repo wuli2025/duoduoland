@@ -1,0 +1,189 @@
+{
+  "started_at": "2026-10-08T08:58:01.443065+00:00",
+  "status": "BLOCKED",
+  "attempts": [
+    {
+      "cli": "C:\\Users\\mi\\.grok\\bin\\grok.EXE",
+      "status": "FAILED",
+      "version": "grok 1.0.46 (2765805b9442)",
+      "exit_code": 1,
+      "error": "CLI exited 1; see attempt-1 logs"
+    },
+    {
+      "cli": "C:\\Users\\mi\\.grok\\bin\\grok.exe",
+      "status": "FAILED",
+      "version": "grok 1.0.46 (2765805b9442)",
+      "exit_code": 1,
+      "error": "CLI exited 1; see attempt-2 logs"
+    }
+  ],
+  "requested_model": null,
+  "reasoning_effort": null,
+  "files": [
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-2-brief.md",
+      "bytes": 2115,
+      "lines": 20,
+      "sha256": "7fe1e86325560e2a0e83e8856edb853c23da82c27cbb0b7ffbc5b1caa1304bac"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-1\\disposition.md",
+      "bytes": 6572,
+      "lines": 42,
+      "sha256": "c475925835e298124f5fc7916d71229a15b5fdf4fbdbd8437d644423d6e627c2"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\cache.js",
+      "bytes": 1369,
+      "lines": 30,
+      "sha256": "ae2c296153886d65ef3e7dfdd3c0934c4f01058d6f88ee367a2f076304bcd916"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\config.js",
+      "bytes": 1187,
+      "lines": 25,
+      "sha256": "7cce03ae68d7d6fc8b190701cb6451f27c5f27b93cd1c18c01d694cd42d3d7f6"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\index.js",
+      "bytes": 4176,
+      "lines": 69,
+      "sha256": "4617d13d16cb0bbf548779ef5dcf66e020fe728e8bd32c882d1d72c722528bff"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\llm.js",
+      "bytes": 3598,
+      "lines": 69,
+      "sha256": "3d0230cdd94ecf51ee8374f0ecf3df47390e738ce4055b8128d8f78c4205e5ef"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\prompt-input.js",
+      "bytes": 760,
+      "lines": 14,
+      "sha256": "783e6cfe319b54b034c07e82b1422f699da88296a9644b41a830bd51f2dc6e18"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\upstream.js",
+      "bytes": 2115,
+      "lines": 47,
+      "sha256": "83551ff5a902d1fd48bf68a764fb114739e29ec2a1bad0f54b61c8387684f644"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\prompts\\intent.md",
+      "bytes": 1037,
+      "lines": 6,
+      "sha256": "1d2e3f32cb985c28c19eaeb452cb12653a0088c0f8d5a7695136be34cede0e70"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\prompts\\rerank-baseline.md",
+      "bytes": 718,
+      "lines": 4,
+      "sha256": "85b690e9a78ff6f3e8e58da5b5f73ea69d314a8081ea4f2975caf5700fd6ae2c"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\prompts\\rerank.md",
+      "bytes": 1395,
+      "lines": 7,
+      "sha256": "e9f96e05271024115920527ea1ccd828ca8d4d80071a34f93ae456e649a2c90b"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\llm-client.js",
+      "bytes": 3837,
+      "lines": 76,
+      "sha256": "d430c6b3c3f403b16db1235507a6a951384c5b0fa787875710e5a89503d982d1"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\llm-schema.js",
+      "bytes": 4818,
+      "lines": 88,
+      "sha256": "b154a16720a9fba7ffe46b41401ca0437041eabcd5c4123b92bdda0aef170680"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\progressive.js",
+      "bytes": 967,
+      "lines": 23,
+      "sha256": "944710a697c61173f12f36afe71e0061f6020966389f512130ae89a1d87e372b"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\matcher.js",
+      "bytes": 14046,
+      "lines": 368,
+      "sha256": "d71d77f5c2610c05f2aa8a7a438749eda74cede7c43440808e40f301bf272303"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\service.js",
+      "bytes": 4079,
+      "lines": 118,
+      "sha256": "8fb8036d177b8f644b540517fcba4765b598d04115240b3eea1751efb4821eae"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\store.js",
+      "bytes": 2391,
+      "lines": 76,
+      "sha256": "078ab9252f7a210631b427ca4b287edde8ec2aa9687295747a8925c52e766527"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\config\\llm.js",
+      "bytes": 767,
+      "lines": 21,
+      "sha256": "3fb7d22ff385be5f16d66565a7390b4c1b9f12218858889277de405c8a84adf0"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\config\\matching.js",
+      "bytes": 1202,
+      "lines": 45,
+      "sha256": "741aca4a4929fc4d67b28f9090bb413c3b6a40287362795641444019b24b9eda"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\data\\ai-people.js",
+      "bytes": 9993,
+      "lines": 78,
+      "sha256": "838865c75e6713f21d7331883b9da625018a9293e67caf7f3d4101396ac35cfa"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\ui\\pages\\match.js",
+      "bytes": 10817,
+      "lines": 225,
+      "sha256": "d23f69f61b50f578eaee9636c22aff8e0d593399608fcb75b1058766f6eed1b4"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\llm.test.js",
+      "bytes": 8175,
+      "lines": 136,
+      "sha256": "3e0057205291010357f42d21a8020c8caf473d8dd81d8dc65c37c630c927ad92"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\llm-cache.test.js",
+      "bytes": 4583,
+      "lines": 88,
+      "sha256": "8105bebb07f3ebbbd0bc528a9624d855b7d7495592fec86ae006b99ea3570ad9"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\round3.test.js",
+      "bytes": 4986,
+      "lines": 87,
+      "sha256": "e0b89606519e1fae9d5b29a5a003529ca49d9cab41d0c4f0e2902d22f38841fa"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\matcher.test.js",
+      "bytes": 8350,
+      "lines": 254,
+      "sha256": "e7f4f16454060caa33a5838f684e44529b3e3d3bdf7195fdef3da40bf75fe875"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\启动演示.bat",
+      "bytes": 58,
+      "lines": 4,
+      "sha256": "0aa2c6481c157d5744647fc765bb416f2b3a078fa58e09422d56cceff1c61ccc"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\feature-tree.md",
+      "bytes": 11027,
+      "lines": 95,
+      "sha256": "0d9cb58e66cd7ac4ac8976ed926fe4a7d47bc4446084d2854a2ee081f50eb8e2"
+    }
+  ],
+  "prompt_sha256": "c67a8bc0adb12b0e00765706a12e7209e405ab25e64f4ca51a01079d3527f477",
+  "prompt_bytes": 128391,
+  "finished_at": "2026-10-08T08:58:27.536668+00:00"
+}

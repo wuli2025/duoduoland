@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "页面直接reject：AbortError与普通code区分，failed保留本地5行，诊断无原始消息",
+    "注入仅2人结果：页面人数与标题同步；不把这张截图当作真实模型证据",
+    "file本地降级，无HTTP请求"
+  ],
+  "diagnostics": [
+    {
+      "operation": "match-rerank",
+      "status": "error",
+      "code": "LLM_ABORTED",
+      "eventId": "ai-agent-night",
+      "phase": "pending",
+      "message": "推荐请求未完成"
+    },
+    {
+      "operation": "match-rerank",
+      "status": "error",
+      "code": "ERR_HTTP2_STREAM_ERROR",
+      "eventId": "ai-agent-night",
+      "phase": "pending",
+      "message": "推荐请求未完成"
+    }
+  ],
+  "page_errors": [],
+  "url": "http://127.0.0.1:8787"
+}

@@ -1,0 +1,40 @@
+{
+  "checks": [
+    "默认空白、空意图不重排、16个公开常见标签、点选/删除与右侧预览同步",
+    "明确注入旧health/无mode意图：设置页与匹配页提示旧版，dating未丢失，仅本地2位男性，无rerank请求",
+    "当前9.0.0服务：城市徒步真实LLM精排5位男性、fitReason及真实meta"
+  ],
+  "meta": [
+    {
+      "cache": "miss",
+      "durationMs": 32669,
+      "upstreamMs": 32667,
+      "model": "gpt-6-astra",
+      "cached": false,
+      "cachedAt": "2026-10-09T03:16:31.608Z",
+      "completedAt": "2026-10-09T03:16:31.608Z",
+      "correlationId": "826ca78f-762f-4c62-85de-5735a459759b",
+      "sourceCorrelationId": "826ca78f-762f-4c62-85de-5735a459759b",
+      "repairs": [],
+      "dropped": []
+    }
+  ],
+  "pageErrors": [],
+  "url": "http://127.0.0.1:8788",
+  "upstreamEvidence": [
+    {
+      "correlationId": "826ca78f-762f-4c62-85de-5735a459759b",
+      "operation": "rerank",
+      "status": "ok",
+      "durationMs": 32667
+    }
+  ],
+  "offline": {
+    "requests": 0,
+    "pageErrors": [],
+    "rows": 5,
+    "uniqueReasons": 5,
+    "modeSwitch": true,
+    "ageRemoval": true
+  }
+}

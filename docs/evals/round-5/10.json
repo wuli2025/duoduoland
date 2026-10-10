@@ -1,0 +1,205 @@
+{
+  "name": "想加入早期 AI 项目的大模型工程师",
+  "eventId": "demo-day",
+  "intent": {
+    "seekRoles": [
+      "创始人"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "技术",
+      "RAG原型",
+      "推理部署"
+    ],
+    "city": "",
+    "cooperation": [
+      "早期员工",
+      "联合创始人"
+    ],
+    "availability": [
+      "全职"
+    ]
+  },
+  "localMs": 26,
+  "local": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.825
+      },
+      "reason": "沈律公开了法律产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "乔南关注Agent；你找创始人，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "可以找程砚聊LLM，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.6083333333333334
+      },
+      "reason": "林昭公开了金融产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-66",
+      "public": {
+        "profile": {
+          "name": "孟舒",
+          "title": "AI 医疗创始人"
+        }
+      },
+      "score": 80,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.5
+      },
+      "reason": "孟舒公开了医疗产品经验，也希望认识工程师。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "llmMs": 26189,
+  "remote": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 94,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.9179999999999999
+      },
+      "reason": "沈律的RAG 知识库与你技术契合，且寻求全职技术伙伴"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9059999999999999,
+        "needBA": 0.9059999999999999
+      },
+      "reason": "乔南提供海外客户渠道，与你的Agent技术互补且合作条件相符"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.8999999999999999,
+        "needBA": 0.8999999999999999
+      },
+      "reason": "程砚提供企业客户渠道，寻找与你全职合作方向相符的技术合伙人"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.8700000000000001,
+        "needBA": 0.7773333333333334
+      },
+      "reason": "林昭提供金融行业数据，与你的RAG原型能力互补且支持全职合作"
+    },
+    {
+      "id": "person-66",
+      "public": {
+        "profile": {
+          "name": "孟舒",
+          "title": "AI 医疗创始人"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.8580000000000001,
+        "needBA": 0.716
+      },
+      "reason": "孟舒提供医院场景，寻找技术合伙人且与你的全职合作方向相符"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

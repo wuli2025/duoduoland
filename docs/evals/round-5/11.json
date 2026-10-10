@@ -1,0 +1,209 @@
+{
+  "name": "技术需求切换：端侧推理",
+  "eventId": "ai-agent-night",
+  "technical": "端侧推理",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "端侧推理"
+    ]
+  },
+  "localMs": 22,
+  "local": [
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "裴川公开了端侧推理经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-73",
+      "public": {
+        "profile": {
+          "name": "顾庭",
+          "title": "端侧 AI 工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找顾庭聊端侧推理，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "许棠公开的RAG 知识库是一个交流起点。"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从陆望的多模态视频生成聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从江尧的Agent 编排聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的端侧推理工程师数量 ≥ 2"
+  },
+  "llmMs": 25144,
+  "remote": [
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.8939999999999999
+      },
+      "reason": "裴川擅长端侧推理，愿以全职联合创始人身份与你合作"
+    },
+    {
+      "id": "person-73",
+      "public": {
+        "profile": {
+          "name": "顾庭",
+          "title": "端侧 AI 工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.9059999999999999
+      },
+      "reason": "顾庭擅长端侧推理，全职合作与报酬条件均与你契合"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 73,
+      "factors": {
+        "needAB": 0.4386,
+        "needBA": 0.8939999999999999
+      },
+      "reason": "江尧能做Agent产品交付，你的客户渠道可支持早期合作"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 69,
+      "factors": {
+        "needAB": 0.3906,
+        "needBA": 0.8580000000000001
+      },
+      "reason": "许棠可用RAG 知识库支持你的企业应用，也寻求全职早期合作"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 67,
+      "factors": {
+        "needAB": 0.3726,
+        "needBA": 0.8340000000000001
+      },
+      "reason": "秦朗可用MLOps支持你的模型运维，全职早期员工条件契合"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 2,
+    "mutual": 3,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的端侧推理工程师数量 ≥ 2"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

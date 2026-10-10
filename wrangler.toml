@@ -1,0 +1,20 @@
+name = "duoduoland"
+account_id = "0acedf8c211bd536b702a15e61da42aa"
+main = "cloud/worker.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = false
+
+[assets]
+directory = "./cloud/public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[routes]]
+pattern = "duoduoland.llmwiki.cloud"
+custom_domain = true
+
+[[rules]]
+type = "Text"
+globs = ["**/*.md"]
+fallthrough = true

@@ -1,0 +1,4 @@
+{"event":"listening","url":"http://127.0.0.1:8787"}
+{"correlationId":"179bcfbb-5fe3-42d4-bd95-a4b01083966b","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"ef0fb000-d10b-4456-af5f-4888a72eebad","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"4dd0e708-2a4f-4a89-807f-f7b9622b9178","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}

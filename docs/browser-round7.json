@@ -1,0 +1,66 @@
+{
+  "checks": [
+    "真实请求计时、等待无最终排名、成功才展示Top5与服务端meta",
+    "真实缓存命中；重新计算携带bypassCache并再次调用上游",
+    "头像墙24人、签到优先、公开职位hover、本场隐私浮层、隐藏头像占位、卡片4人叠放",
+    "失败停止动效、显示本地Top5与重试；file直接本地且无HTTP请求"
+  ],
+  "meta": [
+    {
+      "cache": "miss",
+      "durationMs": 28529,
+      "upstreamMs": 28527,
+      "model": "gpt-6-astra",
+      "cached": false,
+      "cachedAt": "2026-10-08T12:36:20.350Z",
+      "completedAt": "2026-10-08T12:36:20.350Z",
+      "correlationId": "de5d7fa6-953e-4fd4-8390-edd455263720",
+      "sourceCorrelationId": "de5d7fa6-953e-4fd4-8390-edd455263720",
+      "repairs": [],
+      "dropped": []
+    },
+    {
+      "cache": "hit",
+      "durationMs": 0,
+      "upstreamMs": 28527,
+      "model": "gpt-6-astra",
+      "cached": true,
+      "cachedAt": "2026-10-08T12:36:20.350Z",
+      "completedAt": "2026-10-08T12:36:20.350Z",
+      "correlationId": "a8001b92-0db4-407f-84ea-86608a6be36f",
+      "sourceCorrelationId": "de5d7fa6-953e-4fd4-8390-edd455263720",
+      "repairs": [],
+      "dropped": []
+    },
+    {
+      "cache": "miss",
+      "durationMs": 25992,
+      "upstreamMs": 25991,
+      "model": "gpt-6-astra",
+      "cached": false,
+      "cachedAt": "2026-10-08T12:36:48.526Z",
+      "completedAt": "2026-10-08T12:36:48.526Z",
+      "correlationId": "fb5619fd-4b97-4c64-8461-128d9fc8be49",
+      "sourceCorrelationId": "fb5619fd-4b97-4c64-8461-128d9fc8be49",
+      "repairs": [],
+      "dropped": []
+    }
+  ],
+  "pageErrors": [],
+  "url": "http://127.0.0.1:8787",
+  "pending": "读取本场 41 位参会者的公开名片\n初步筛出 10 位候选\n郭\n\ngpt-6-astra 正在逐一评估你们是否值得见面…\n\n已等待 2 秒",
+  "upstreamEvidence": [
+    {
+      "correlationId": "de5d7fa6-953e-4fd4-8390-edd455263720",
+      "operation": "rerank",
+      "status": "ok",
+      "durationMs": 28527
+    },
+    {
+      "correlationId": "fb5619fd-4b97-4c64-8461-128d9fc8be49",
+      "operation": "rerank",
+      "status": "ok",
+      "durationMs": 25991
+    }
+  ]
+}

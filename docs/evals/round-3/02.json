@@ -1,0 +1,188 @@
+{
+  "name": "找设计师的独立开发者",
+  "eventId": "design-workshop",
+  "intent": {
+    "seekRoles": [
+      "设计师"
+    ],
+    "seekIndustries": [
+      "设计"
+    ],
+    "offer": [
+      "技术"
+    ],
+    "city": "上海"
+  },
+  "localMs": 18,
+  "local": [
+    {
+      "id": "person-41",
+      "public": {
+        "profile": {
+          "name": "唐清",
+          "title": "产品设计师"
+        }
+      },
+      "score": 94,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "唐清关注交互设计；你找设计师，TA 也希望认识独立开发者。"
+    },
+    {
+      "id": "person-19",
+      "public": {
+        "profile": {
+          "name": "江屿",
+          "title": "视觉设计师"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "可以找江屿聊视觉系统，TA 也希望认识独立开发者。"
+    },
+    {
+      "id": "person-47",
+      "public": {
+        "profile": {
+          "name": "夏禾",
+          "title": "应届产品设计毕业生"
+        }
+      },
+      "score": 82,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.35
+      },
+      "reason": "你在找设计师，夏禾公开了Figma这一专长。"
+    },
+    {
+      "id": "person-17",
+      "public": {
+        "profile": {
+          "name": "孟言",
+          "title": "设计研究员"
+        }
+      },
+      "score": 82,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.35
+      },
+      "reason": "孟言的设计经验值得聊聊，符合你找设计师的方向。"
+    },
+    {
+      "id": "person-54",
+      "public": {
+        "profile": {
+          "name": "叶晓",
+          "title": "工业设计师"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.18
+      },
+      "reason": "你在找设计师，叶晓公开了工业设计这一专长。"
+    }
+  ],
+  "localCheck": {
+    "hit": 3,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的设计师数量 ≥ 2"
+  },
+  "llmMs": 24350,
+  "remote": [
+    {
+      "id": "person-41",
+      "public": {
+        "profile": {
+          "name": "唐清",
+          "title": "产品设计师"
+        }
+      },
+      "score": 95,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.964
+      },
+      "reason": "唐清提供“交互设计”，且明确寻找独立开发者"
+    },
+    {
+      "id": "person-19",
+      "public": {
+        "profile": {
+          "name": "江屿",
+          "title": "视觉设计师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.964
+      },
+      "reason": "江屿提供“视觉系统”，且明确寻找独立开发者"
+    },
+    {
+      "id": "person-10",
+      "public": {
+        "profile": {
+          "name": "赵一",
+          "title": "体验设计师"
+        }
+      },
+      "score": 82,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.282
+      },
+      "reason": "赵一是体验设计师，具备“产品策略”，契合寻找方向"
+    },
+    {
+      "id": "person-29",
+      "public": {
+        "profile": {
+          "name": "方行",
+          "title": "用户研究员"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.6379999999999999,
+        "needBA": 0.964
+      },
+      "reason": "方行提供“用户访谈”，且明确寻找独立开发者"
+    },
+    {
+      "id": "person-47",
+      "public": {
+        "profile": {
+          "name": "夏禾",
+          "title": "应届产品设计毕业生"
+        }
+      },
+      "score": 80,
+      "factors": {
+        "needAB": 0.9460000000000001,
+        "needBA": 0.29
+      },
+      "reason": "夏禾提供“Figma”和设计，当前主要寻找招聘者"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的设计师数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

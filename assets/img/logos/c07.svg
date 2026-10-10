@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c07-title">
+  <title id="c07-title">初弧 — 虚构公司标记</title>
+  <desc>单色几何：外开口弧、内短弧和偏置方块。手写 SVG，无外部依赖。</desc>
+  <path d="M94 88a40 40 0 1 1 0-48M77 77a18 18 0 1 1 0-26" fill="none" stroke="#313932" stroke-width="11" stroke-linecap="butt"/>
+  <path d="M86 57h18v18H86Z" fill="#313932"/>
+</svg>

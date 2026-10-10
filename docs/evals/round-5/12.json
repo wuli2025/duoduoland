@@ -1,0 +1,209 @@
+{
+  "name": "技术需求切换：RAG 知识库",
+  "eventId": "ai-agent-night",
+  "technical": "RAG 知识库",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "RAG 知识库"
+    ]
+  },
+  "localMs": 22,
+  "local": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "江尧公开了RAG 知识库经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.857,
+        "needBA": 0.175
+      },
+      "reason": "沈律的RAG 知识库经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.6153600000000001,
+        "needBA": 0
+      },
+      "reason": "齐木的RAG经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从裴川的端侧推理聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "llmMs": 25921,
+  "remote": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.8999999999999999
+      },
+      "reason": "许棠擅长RAG 知识库，可全职与你共建早期项目。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.9119999999999999
+      },
+      "reason": "江尧擅长RAG 知识库，与你的企业服务方向契合。"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.750144,
+        "needBA": 0.432
+      },
+      "reason": "齐木具备RAG技能且寻找招聘者，可与你交流技术岗位。"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 71,
+      "factors": {
+        "needAB": 0.7627999999999999,
+        "needBA": 0.27999999999999997
+      },
+      "reason": "沈律具备RAG 知识库技能，可与你交流法律场景落地。"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.750144,
+        "needBA": 0.18
+      },
+      "reason": "陆川具备RAG与Agent技能，可与你探讨知识库实现。"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 3,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

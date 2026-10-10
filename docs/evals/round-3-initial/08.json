@@ -1,0 +1,189 @@
+{
+  "name": "找联合创始人的工程师",
+  "eventId": "founders-brunch",
+  "intent": {
+    "seekRoles": [
+      "创始人",
+      "产品经理"
+    ],
+    "seekIndustries": [
+      "Agent"
+    ],
+    "offer": [
+      "技术"
+    ],
+    "city": "上海"
+  },
+  "localMs": 21,
+  "local": [
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.675,
+        "needBA": 1
+      },
+      "reason": "可以找夏青聊产品策略，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 1
+      },
+      "reason": "从陆川的RAG聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-18",
+      "public": {
+        "profile": {
+          "name": "蒋可",
+          "title": "跨境品牌创始人"
+        }
+      },
+      "score": 69,
+      "factors": {
+        "needAB": 0.325,
+        "needBA": 0.65
+      },
+      "reason": "从蒋可的跨境电商聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁",
+          "title": "产品总监"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 0.35
+      },
+      "reason": "孙宁公开的产品策略是一个交流起点。"
+    },
+    {
+      "id": "person-40",
+      "public": {
+        "profile": {
+          "name": "韩予",
+          "title": "数据科学家"
+        }
+      },
+      "score": 67,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 0.35
+      },
+      "reason": "韩予公开的因果推断是一个交流起点。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 1,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 2"
+  },
+  "llmMs": 26153,
+  "remote": [
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.858,
+        "needBA": 0.982
+      },
+      "reason": "夏青有付费客户，以“产品策略”互补技术且正找工程师"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁",
+          "title": "产品总监"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.656,
+        "needBA": 0.31999999999999995
+      },
+      "reason": "孙宁具“产品策略”且同属Agent，但意向找产品经理"
+    },
+    {
+      "id": "person-18",
+      "public": {
+        "profile": {
+          "name": "蒋可",
+          "title": "跨境品牌创始人"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.52,
+        "needBA": 0.608
+      },
+      "reason": "蒋可是创始人并提供“项目”，找工程师但行业不同"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 62,
+      "factors": {
+        "needAB": 0.392,
+        "needBA": 0.88
+      },
+      "reason": "陆川同属“Agent”且找工程师，但不属所寻角色"
+    },
+    {
+      "id": "person-09",
+      "public": {
+        "profile": {
+          "name": "吴昊",
+          "title": "跨境电商创始人"
+        }
+      },
+      "score": 65,
+      "factors": {
+        "needAB": 0.514,
+        "needBA": 0.608
+      },
+      "reason": "吴昊是创始人并提供“产品增长”，找工程师但行业不同"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 1,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

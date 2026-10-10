@@ -1,0 +1,99 @@
+{
+  "started_at": "2026-10-08T09:54:05.646385+00:00",
+  "status": "REVIEW_RECEIVED",
+  "attempts": [
+    {
+      "cli": "C:\\Users\\mi\\.grok\\bin\\grok.EXE",
+      "status": "SUCCESS",
+      "version": "grok 1.0.46 (2765805b9442)",
+      "exit_code": 0
+    }
+  ],
+  "requested_model": null,
+  "reasoning_effort": null,
+  "files": [
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-3-brief.md",
+      "bytes": 784,
+      "lines": 4,
+      "sha256": "32e9ae85b71259cf9efa0460211b50151597c779bc9be3a507fe1b8b96338cf5"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-2\\disposition.md",
+      "bytes": 9517,
+      "lines": 55,
+      "sha256": "f3d5af8942a70128425a18eea4cb1a2d26be5004064c644978ded765718d2aba"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\index.js",
+      "bytes": 4377,
+      "lines": 74,
+      "sha256": "13098bda3a05d9ebca2aaf8e7c2dd4ef75140c89f9ebf5469af12ff72d880e5a"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\llm.js",
+      "bytes": 4932,
+      "lines": 94,
+      "sha256": "b33af9e90d4b67f788cf13c3c7f1c25a38c4d548ad3d97f1cd74e5894f56a040"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\upstream.js",
+      "bytes": 2290,
+      "lines": 48,
+      "sha256": "7fa4e26ff01b8a42bd293b7950c17f98e381b2947b0632bea6ba6784114ed613"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\server\\cache.js",
+      "bytes": 2259,
+      "lines": 52,
+      "sha256": "d0f32948195e2ca1a16810aff74fde799e3435074a59698ffcddb865aa72a039"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\llm-client.js",
+      "bytes": 5115,
+      "lines": 90,
+      "sha256": "6acc7bcdc9d9a3a25d9a07fd02410e66910676d875cd620ce6dd5726d7fb45ab"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\llm-schema.js",
+      "bytes": 6546,
+      "lines": 108,
+      "sha256": "8987fa62f98514a6b592b16adaad9a13dcc31784e214436dcc0c859cc156c0ea"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\progressive.js",
+      "bytes": 1092,
+      "lines": 25,
+      "sha256": "aa20b5b887333d783974c01243056dcdc6393c928a7563e7080dba5cf3ff4865"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\ui\\pages\\match.js",
+      "bytes": 11120,
+      "lines": 235,
+      "sha256": "67ff04f63294c1fd1c541b2a8f0f16c00690a331a3850e1ada9e1b0e55fcf5e0"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\prompts\\rerank.md",
+      "bytes": 1906,
+      "lines": 8,
+      "sha256": "25e2dd6135b4ee2cbac2f139819cf54aa281fc77c71cd609200dca3dfba0c980"
+    }
+  ],
+  "prompt_sha256": "9cb9ac39b0e3468cb1ad9720d7ff9f1812ec494184a63723468943ce289090c9",
+  "prompt_bytes": 55809,
+  "cli": "C:\\Users\\mi\\.grok\\bin\\grok.EXE",
+  "version": "grok 1.0.46 (2765805b9442)",
+  "model_usage": {
+    "grok-4.7-build": {
+      "inputTokens": 36088,
+      "outputTokens": 52338,
+      "cacheReadInputTokens": 1664,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.13159224
+    }
+  },
+  "session_id": "01a11aef-35f2-7f02-914e-3deb03ce09e3",
+  "request_id": "5f445bec-a414-44c7-9784-a46231abc497",
+  "finished_at": "2026-10-08T10:06:59.435339+00:00"
+}

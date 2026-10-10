@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "真实本地初排→大模型精排，等待可交互，显示分数降序，保留收藏与选中",
+    "注入rerank直接reject：页面catch落到failed、保留5行、无unhandled rejection",
+    "注入HTTP错误、非法JSON、超时响应均failed；真实deadline另有Node测试",
+    "离开页面向rerank传递的signal确实abort；迟到reject未污染新页面",
+    "关闭LLM时页面连rerank函数也不调用",
+    "真实停止本脚本启动的server后再进入匹配页，网络失败保留本地结果",
+    "file无HTTP请求；意图解析标注本地引擎并保留技术标签"
+  ],
+  "errors": [],
+  "timings": {
+    "local_ms": 196,
+    "refined_ms": 29453,
+    "cache_ms": 670
+  },
+  "port_test": "8787原本空闲，由验收脚本临时占用以验证自动顺延",
+  "url": "http://127.0.0.1:8788/",
+  "port_events": [
+    {
+      "event": "listen_error",
+      "code": "PORT_IN_USE",
+      "port": 8787
+    },
+    {
+      "event": "listening",
+      "url": "http://127.0.0.1:8788"
+    }
+  ]
+}

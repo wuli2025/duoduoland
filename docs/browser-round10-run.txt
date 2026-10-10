@@ -1,0 +1,141 @@
+{
+  "checks": [
+    {
+      "shot": "1440-home-featured",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-home-week",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-home-ranking",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-detail",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-join",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-match",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-jobs",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-cards",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-discover",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-live",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1440-search",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-home-featured",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-home-week",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-home-ranking",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-detail",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-join",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-match",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-jobs",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-cards",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-discover",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-live",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    },
+    {
+      "shot": "1024-search",
+      "overflow": false,
+      "tiny": [],
+      "clipped": []
+    }
+  ],
+  "meta": [],
+  "pageErrors": [],
+  "url": "http://127.0.0.1:8788",
+  "interaction": "循环箭头、键盘、侧卡、鼠标拖拽、真实touch事件、reduced-motion、5秒自动轮播与hover暂停通过",
+  "file": "file://品牌、轮播与本地资源加载通过"
+}

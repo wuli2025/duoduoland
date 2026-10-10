@@ -1,0 +1,188 @@
+{
+  "name": "找供应链的新消费主理人",
+  "eventId": "global-forum",
+  "intent": {
+    "seekRoles": [
+      "供应链专家"
+    ],
+    "seekIndustries": [
+      "新消费"
+    ],
+    "offer": [
+      "项目"
+    ],
+    "city": "上海"
+  },
+  "localMs": 10,
+  "local": [
+    {
+      "id": "person-30",
+      "public": {
+        "profile": {
+          "name": "邱然",
+          "title": "制造业老板 / 供应链专家"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "邱然公开了柔性制造经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-56",
+      "public": {
+        "profile": {
+          "name": "汪洋",
+          "title": "食品供应链专家"
+        }
+      },
+      "score": 90,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "汪洋关注食品工厂；你找供应链专家，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-53",
+      "public": {
+        "profile": {
+          "name": "程越",
+          "title": "包装供应链专家"
+        }
+      },
+      "score": 90,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "程越关注食品包装；你找供应链专家，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-27",
+      "public": {
+        "profile": {
+          "name": "郑宁",
+          "title": "品牌市场总监"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 1
+      },
+      "reason": "从郑宁的品牌定位聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-02",
+      "public": {
+        "profile": {
+          "name": "周蔓",
+          "title": "前消费电子供应链总监"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.65,
+        "needBA": 0
+      },
+      "reason": "周蔓的量产经验值得聊聊，符合你找供应链专家的方向。"
+    }
+  ],
+  "localCheck": {
+    "hit": 4,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的供应链专家数量 ≥ 2"
+  },
+  "llmMs": 26744,
+  "remote": [
+    {
+      "id": "person-30",
+      "public": {
+        "profile": {
+          "name": "邱然",
+          "title": "制造业老板 / 供应链专家"
+        }
+      },
+      "score": 95,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.976
+      },
+      "reason": "邱然提供“柔性制造”，契合供应链需求且寻找新消费创始人"
+    },
+    {
+      "id": "person-56",
+      "public": {
+        "profile": {
+          "name": "汪洋",
+          "title": "食品供应链专家"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9580000000000001,
+        "needBA": 0.976
+      },
+      "reason": "汪洋提供“供应链”，寻找新消费创始人，食品交付专长明确"
+    },
+    {
+      "id": "person-53",
+      "public": {
+        "profile": {
+          "name": "程越",
+          "title": "包装供应链专家"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.964,
+        "needBA": 0.976
+      },
+      "reason": "程越具备“食品包装”，双向需求契合但当前未开放聊天"
+    },
+    {
+      "id": "person-02",
+      "public": {
+        "profile": {
+          "name": "周蔓",
+          "title": "前消费电子供应链总监"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.728,
+        "needBA": 0.132
+      },
+      "reason": "周蔓具备“供应链”，角色契合但专注AI硬件并寻找产品经理"
+    },
+    {
+      "id": "person-27",
+      "public": {
+        "profile": {
+          "name": "郑宁",
+          "title": "品牌市场总监"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.398,
+        "needBA": 0.97
+      },
+      "reason": "郑宁提供“品牌资源”，同属新消费且寻找创始人"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 4,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的供应链专家数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

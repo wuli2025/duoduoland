@@ -1,0 +1,92 @@
+.event-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 36px;
+  align-items: start;
+}
+.event-detail-cover {
+  aspect-ratio: 16/8;
+  border-radius: 22px;
+}
+.event-detail-title {
+  margin: 26px 0 22px;
+  font-size: var(--text-page);
+}
+.event-detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #626957;
+  margin-bottom: 30px;
+}
+.event-detail-meta > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.event-detail-article {
+  margin-top: 32px;
+}
+.event-detail-article h2 {
+  font-size: var(--text-lead);
+  margin-bottom: 18px;
+}
+.event-detail-article p {
+  font-size: var(--text-body);
+  line-height: 2.1;
+  color: var(--muted);
+}
+.event-detail-attendees {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.event-detail-attendees .avatar {
+  width: 44px;
+  height: 44px;
+}
+.event-detail-agenda {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 18px;
+  font-size: var(--text-sm);
+}
+.event-detail-agenda b {
+  color: var(--muted);
+  font-weight: var(--weight-body);
+}
+.event-reservation {
+  position: sticky;
+  top: 24px;
+}
+.event-reservation .price {
+  font-size: var(--text-display);
+  font-weight: var(--weight-heading);
+  margin: 18px 0 4px;
+}
+.event-reservation > p {
+  color: var(--muted);
+  font-size: var(--text-xs);
+  margin: 12px 0 24px;
+  line-height: 1.9;
+}
+.event-reservation .btn {
+  margin-top: 10px;
+}
+.event-host {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.event-host .logos {
+  width: 42px;
+  height: 42px;
+}
+.event-host small {
+  display: block;
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: var(--text-xs);
+}

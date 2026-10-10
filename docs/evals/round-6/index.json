@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-08T10:39:37.949Z",
+  "timeoutMs": 60000,
+  "candidateCount": 10,
+  "scenarios": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json"
+  ],
+  "latency": [
+    {
+      "variant": "对照：12人/50字理由/120字话题/无token上限",
+      "elapsedMs": 40087,
+      "cacheMs": 0,
+      "cache": "hit",
+      "count": 12,
+      "reasonRepairs": [
+        {
+          "id": "person-01",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-05",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-02",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-28",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-06",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-49",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-11",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-38",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-40",
+          "code": "INCOMPLETE_QUESTION"
+        },
+        {
+          "id": "person-26",
+          "code": "INCOMPLETE_QUESTION"
+        }
+      ],
+      "dropped": [],
+      "repairEvidence": "运行日志 correlationId 96c6571b-eca2-4e6f-8dc2-5731bc49c83b；对照提示词允许120字破冰话题，统一出口仍执行20字完整问句校验。"
+    },
+    {
+      "variant": "优化：10人/40字理由/20字话题/token上限",
+      "elapsedMs": 25199,
+      "cacheMs": 0,
+      "cache": "hit",
+      "count": 10,
+      "reasonRepairs": [],
+      "dropped": []
+    }
+  ]
+}

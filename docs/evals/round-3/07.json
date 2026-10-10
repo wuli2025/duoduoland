@@ -1,0 +1,188 @@
+{
+  "name": "招聘的 HR",
+  "eventId": "ai-agent-night",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "Agent"
+    ],
+    "offer": [
+      "岗位"
+    ],
+    "city": "上海"
+  },
+  "localMs": 20,
+  "local": [
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 90,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "齐木公开了RAG经验，也希望认识招聘者。"
+    },
+    {
+      "id": "person-28",
+      "public": {
+        "profile": {
+          "name": "白露",
+          "title": "全栈工程师"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.35
+      },
+      "reason": "白露的TypeScript经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.35
+      },
+      "reason": "你在找工程师，陆川公开了RAG这一专长。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 78,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.07168000000000002
+      },
+      "reason": "你在找工程师，江尧公开了Agent 编排这一专长。"
+    },
+    {
+      "id": "person-03",
+      "public": {
+        "profile": {
+          "name": "Kevin",
+          "title": "AI 眼镜 CTO"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "你在找工程师，Kevin公开了多模态这一专长。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 1,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的工程师数量 ≥ 3"
+  },
+  "llmMs": 23838,
+  "remote": [
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 94,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.988
+      },
+      "reason": "齐木是Agent算法工程师，明确寻找招聘者"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.460672
+      },
+      "reason": "江尧擅长Agent 编排，已离职并寻找全职早期项目"
+    },
+    {
+      "id": "person-28",
+      "public": {
+        "profile": {
+          "name": "白露",
+          "title": "全栈工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.964,
+        "needBA": 0.31999999999999995
+      },
+      "reason": "白露具备TypeScript技能，符合工程师方向"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.29
+      },
+      "reason": "陆川具备RAG技能且行业吻合，但想找工程师"
+    },
+    {
+      "id": "person-04",
+      "public": {
+        "profile": {
+          "name": "李一舟",
+          "title": "独立开发者"
+        }
+      },
+      "score": 76,
+      "factors": {
+        "needAB": 0.656,
+        "needBA": 0.296
+      },
+      "reason": "李一舟具备Agent与RAG技能，但本场寻找产品经理"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 4,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的工程师数量 ≥ 3"
+  },
+  "cache": "hit",
+  "cacheMs": 1
+}

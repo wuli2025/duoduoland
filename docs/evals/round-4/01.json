@@ -1,0 +1,194 @@
+{
+  "name": "找投资的硬件创业者",
+  "eventId": "deeptech-capital",
+  "intent": {
+    "seekRoles": [
+      "投资人"
+    ],
+    "seekIndustries": [
+      "AI 硬件"
+    ],
+    "offer": [
+      "项目",
+      "技术"
+    ],
+    "city": "上海"
+  },
+  "localMs": 23,
+  "local": [
+    {
+      "id": "person-01",
+      "public": {
+        "profile": {
+          "name": "陈屿",
+          "title": "硬科技基金合伙人"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.675
+      },
+      "reason": "可以找陈屿聊端侧 AI，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-05",
+      "public": {
+        "profile": {
+          "name": "王澜",
+          "title": "美元基金投资经理"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.675
+      },
+      "reason": "王澜关注Agent；你找投资人，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-26",
+      "public": {
+        "profile": {
+          "name": "宋乔",
+          "title": "天使投资人"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.675
+      },
+      "reason": "宋乔关注种子轮投资；你找投资人，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-39",
+      "public": {
+        "profile": {
+          "name": "余弦",
+          "title": "产业基金合伙人"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.675
+      },
+      "reason": "余弦公开了产业投资经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-49",
+      "public": {
+        "profile": {
+          "name": "郭衡",
+          "title": "VC 投资总监"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.675
+      },
+      "reason": "可以找郭衡聊早期投资，TA 也希望认识创始人。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的投资人数量 ≥ 3"
+  },
+  "llmMs": 28408,
+  "remote": [
+    {
+      "id": "person-01",
+      "public": {
+        "profile": {
+          "name": "陈屿",
+          "title": "硬科技基金合伙人"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.846
+      },
+      "reason": "陈屿专注早期投资并寻找硬件创始人，资金与你的项目互补"
+    },
+    {
+      "id": "person-26",
+      "public": {
+        "profile": {
+          "name": "宋乔",
+          "title": "天使投资人"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.982,
+        "needBA": 0.846
+      },
+      "reason": "宋乔擅长种子轮投资，寻找硬件创始人并支持产品验证"
+    },
+    {
+      "id": "person-05",
+      "public": {
+        "profile": {
+          "name": "王澜",
+          "title": "美元基金投资经理"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.84
+      },
+      "reason": "王澜关注AI 硬件并寻找创始人，可为项目提供资金"
+    },
+    {
+      "id": "person-39",
+      "public": {
+        "profile": {
+          "name": "余弦",
+          "title": "产业基金合伙人"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.84
+      },
+      "reason": "余弦擅长产业投资，可为硬件项目带来资金与制造资源"
+    },
+    {
+      "id": "person-49",
+      "public": {
+        "profile": {
+          "name": "郭衡",
+          "title": "VC 投资总监"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 0.964,
+        "needBA": 0.84
+      },
+      "reason": "郭衡擅长早期投资，正寻找AI 硬件创始人与技术项目"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的投资人数量 ≥ 3"
+  },
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 1
+}

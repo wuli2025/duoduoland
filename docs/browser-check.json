@@ -1,0 +1,163 @@
+{
+  "pages": [
+    {
+      "page": "events",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "event-detail",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "join-card",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "join-intent",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "join-privacy",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "match",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "discover",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "jobs",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "job-detail",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "cards",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "base-profile",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "share",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "search",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "live",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "events",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "event-detail",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "join-card",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "match",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "discover",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "jobs",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "cards",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "live",
+      "width": 1024,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "missing-avatar",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "page": "missing-cover",
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    }
+  ],
+  "checks": [
+    "carousel and event category filtering",
+    "three-step join, editable parsed tags, microphone demo, privacy and persisted participation",
+    "Top 5, keyboard actions, favorites, feedback, exclusion and live filters",
+    "discovery tabs, topic filtering and empty-state reset",
+    "16 job rows, search, detail, private-safe application and empty-state reset",
+    "card privacy, live preview, native drag/drop, base editing, save/reload, add/rename/delete/share",
+    "global Ctrl+K semantic search, Enter opens result, Escape closes",
+    "live display and anonymous feed animation",
+    "all primary pages checked at 1024px without horizontal overflow",
+    "forced missing avatar/cover fallbacks show initials or gray, no broken-image icon",
+    "zero JavaScript errors and zero network dependencies under file://"
+  ],
+  "page_errors": [],
+  "network_requests": []
+}

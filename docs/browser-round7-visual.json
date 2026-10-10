@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:8787",
+  "checks": [
+    "HTTP头像墙无hover遮挡截图",
+    "首页真实叠放头像截图",
+    "1024px活动页无横向溢出",
+    "reduced-motion使用match-pulse，不进行轨道旋转"
+  ]
+}

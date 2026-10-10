@@ -1,0 +1,6 @@
+{"correlationId":"2ef0817c-9808-4bc1-88b4-655b7010d85f","operation":"rerank","status":"ok","durationMs":8744}
+{"correlationId":"2ef0817c-9808-4bc1-88b4-655b7010d85f","operation":"rerank-cache","status":"miss","durationMs":8747}
+{"correlationId":"f6d4159d-bbb9-46b7-8889-ebadb6dbc97a","operation":"rerank","status":"ok","durationMs":26727}
+{"correlationId":"f6d4159d-bbb9-46b7-8889-ebadb6dbc97a","operation":"rerank-cache","status":"miss","durationMs":26728}
+{"correlationId":"975177b9-0d75-4f78-acf8-134fdce06c38","operation":"rerank","status":"ok","durationMs":32281}
+{"correlationId":"975177b9-0d75-4f78-acf8-134fdce06c38","operation":"rerank-cache","status":"miss","durationMs":32281}

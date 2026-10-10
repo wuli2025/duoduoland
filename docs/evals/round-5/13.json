@@ -1,0 +1,209 @@
+{
+  "name": "技术需求切换：多模态视频生成",
+  "eventId": "ai-agent-night",
+  "technical": "多模态视频生成",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "多模态视频生成"
+    ]
+  },
+  "localMs": 21,
+  "local": [
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找陆望聊多模态视频生成，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-77",
+      "public": {
+        "profile": {
+          "name": "贺新",
+          "title": "多模态算法工程师（应届生）"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.5
+      },
+      "reason": "贺新关注多模态视频生成；你找工程师，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从裴川的端侧推理聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "许棠公开的RAG 知识库是一个交流起点。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从江尧的Agent 编排聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的多模态视频生成工程师数量 ≥ 2"
+  },
+  "llmMs": 27556,
+  "remote": [
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.8999999999999999
+      },
+      "reason": "陆望擅长多模态视频生成，与你全职组建早期团队的需求契合。"
+    },
+    {
+      "id": "person-77",
+      "public": {
+        "profile": {
+          "name": "贺新",
+          "title": "多模态算法工程师（应届生）"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 0.9606,
+        "needBA": 0.758
+      },
+      "reason": "贺新具备多模态视频生成技能，适合以全职早期员工加入你。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 69,
+      "factors": {
+        "needAB": 0.3786,
+        "needBA": 0.8760000000000001
+      },
+      "reason": "江尧可提供Agent产品交付，能与你的项目和客户渠道互补。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.3426,
+        "needBA": 0.8340000000000001
+      },
+      "reason": "许棠擅长RAG 知识库，可与你探讨企业项目的检索能力建设。"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 65,
+      "factors": {
+        "needAB": 0.3486,
+        "needBA": 0.804
+      },
+      "reason": "秦朗可提供训练平台，适合与你探讨早期团队的模型训练支持。"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的多模态视频生成工程师数量 ≥ 2"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 1
+}

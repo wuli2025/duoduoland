@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c02-title">
+  <title id="c02-title">间合 — 虚构公司标记</title>
+  <desc>双色几何：错开的开口框与黄色连接方块。手写 SVG，无外部依赖。</desc>
+  <path d="M56 30H30v58h26M72 40h26v58H72" fill="none" stroke="#292C28" stroke-width="12" stroke-linecap="square"/>
+  <path d="M55 55h18v18H55Z" fill="#D4AF45"/>
+</svg>

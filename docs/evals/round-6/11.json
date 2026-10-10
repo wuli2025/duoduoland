@@ -1,0 +1,210 @@
+{
+  "name": "技术需求切换：端侧推理",
+  "eventId": "ai-agent-night",
+  "technical": "端侧推理",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "端侧推理"
+    ]
+  },
+  "localMs": 32,
+  "local": [
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.66
+      },
+      "reason": "裴川公开了端侧推理经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-73",
+      "public": {
+        "profile": {
+          "name": "顾庭",
+          "title": "端侧 AI 工程师"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.66
+      },
+      "reason": "可以找顾庭聊端侧推理，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.66
+      },
+      "reason": "许棠公开的RAG 知识库是一个交流起点。"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.66
+      },
+      "reason": "从陆望的多模态视频生成聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.66
+      },
+      "reason": "从江尧的Agent 编排聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的端侧推理工程师数量 ≥ 2"
+  },
+  "llmMs": 41178,
+  "remote": [
+    {
+      "id": "person-73",
+      "public": {
+        "profile": {
+          "name": "顾庭",
+          "title": "端侧 AI 工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.84
+      },
+      "reason": "顾庭擅长端侧推理，可全职加入，你的项目与其技术互补"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.834
+      },
+      "reason": "裴川擅长端侧推理，可全职与你联合创业，技术与客户渠道互补"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 71,
+      "factors": {
+        "needAB": 0.4446,
+        "needBA": 0.828
+      },
+      "reason": "江尧擅长Agent 编排，你的客户渠道可支持其企业服务交付"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.41459999999999997,
+        "needBA": 0.762
+      },
+      "reason": "秦朗擅长GPU调度，可全职担任早期员工，补充你的技术团队"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 67,
+      "factors": {
+        "needAB": 0.3906,
+        "needBA": 0.792
+      },
+      "reason": "许棠擅长RAG 知识库，可全职加入你的早期企业服务项目"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 2,
+    "mutual": 4,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的端侧推理工程师数量 ≥ 2"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "dropped": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

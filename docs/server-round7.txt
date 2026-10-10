@@ -1,0 +1,13 @@
+{"event":"listening","url":"http://127.0.0.1:8787"}
+{"correlationId":"09f7fe42-848b-45a7-894e-de4154e071dd","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"5c4447d0-6629-48b9-920c-8ff88109dc68","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"9d761dd6-8569-4613-af98-c7cf1c89ebd8","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"de5d7fa6-953e-4fd4-8390-edd455263720","operation":"rerank","status":"ok","durationMs":28527}
+{"correlationId":"de5d7fa6-953e-4fd4-8390-edd455263720","operation":"rerank-cache","status":"miss","durationMs":28529}
+{"correlationId":"2512e6fc-aad5-4bdf-90ef-d90c4b589528","operation":"http","status":"error","code":"NOT_FOUND","durationMs":1}
+{"correlationId":"a8001b92-0db4-407f-84ea-86608a6be36f","operation":"rerank-cache","status":"hit","durationMs":0}
+{"correlationId":"db497936-4bc3-434c-9d44-2c009a132a31","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"afa48b91-dfd3-4b03-9844-f1a301c61699","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"fb5619fd-4b97-4c64-8461-128d9fc8be49","operation":"rerank","status":"ok","durationMs":25991}
+{"correlationId":"fb5619fd-4b97-4c64-8461-128d9fc8be49","operation":"rerank-cache","status":"miss","durationMs":25992}
+{"correlationId":"0446af81-b4d3-4840-80d9-f66c67e115a3","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}

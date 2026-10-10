@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-08T09:41:33.207Z",
+  "timeoutMs": 60000,
+  "candidateCount": 10,
+  "scenarios": [
+    "01.json",
+    "02.json",
+    "03.json",
+    "04.json",
+    "05.json",
+    "06.json",
+    "07.json",
+    "08.json",
+    "09.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json"
+  ],
+  "latency": [
+    {
+      "variant": "对照：12人/50字理由/120字话题/无token上限",
+      "elapsedMs": 38171,
+      "cacheMs": 1,
+      "cache": "hit",
+      "count": 12
+    },
+    {
+      "variant": "优化：10人/40字理由/20字话题/token上限",
+      "elapsedMs": 27192,
+      "cacheMs": 1,
+      "cache": "hit",
+      "count": 10
+    }
+  ]
+}

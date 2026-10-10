@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "file: matching, engine label, unique loaded photos, no version labels",
+    "file: greeting and meeting recompute current list and details",
+    "file: 10 Shanghai / 16 total jobs, differentiated scores, projection snapshot",
+    "file: distinct version icons, discovery renders, text escaping",
+    "file: global search crosses event pools using public projections",
+    "http: matching, engine label, unique loaded photos, no version labels",
+    "http: greeting and meeting recompute current list and details",
+    "http: 10 Shanghai / 16 total jobs, differentiated scores, projection snapshot",
+    "http: distinct version icons, discovery renders, text escaping",
+    "http: global search crosses event pools using public projections"
+  ],
+  "engines": {
+    "file": "本地规则计算（未连接推荐服务）",
+    "http": "由大模型重排"
+  },
+  "page_errors": [],
+  "screenshots": [
+    "match-file-1440.png",
+    "match-file-1024.png",
+    "jobs-file.png",
+    "cards-file.png",
+    "match-http-1440.png",
+    "match-http-1024.png",
+    "jobs-http.png",
+    "cards-http.png"
+  ]
+}

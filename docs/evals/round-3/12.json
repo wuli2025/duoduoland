@@ -1,0 +1,202 @@
+{
+  "name": "技术需求切换：RAG 知识库",
+  "eventId": "ai-agent-night",
+  "technical": "RAG 知识库",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "RAG 知识库"
+    ]
+  },
+  "localMs": 30,
+  "local": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "江尧公开了RAG 知识库经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.857,
+        "needBA": 0.175
+      },
+      "reason": "沈律的RAG 知识库经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.6153600000000001,
+        "needBA": 0
+      },
+      "reason": "齐木的RAG经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁",
+          "title": "产品总监"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.5238400000000001,
+        "needBA": 0
+      },
+      "reason": "孙宁的RAG经验值得聊聊，符合你找同行的方向。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "llmMs": 27783,
+  "remote": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.9119999999999999
+      },
+      "reason": "许棠具备“RAG 知识库”，寻早期项目且全职条件相符"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.9179999999999999
+      },
+      "reason": "江尧擅长“RAG 知识库”，寻客户场景且全职条件相符"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 77,
+      "factors": {
+        "needAB": 0.768144,
+        "needBA": 0.45599999999999996
+      },
+      "reason": "齐木具备“RAG”且寻找招聘者，合作与全职条件未知"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.756144,
+        "needBA": 0.186
+      },
+      "reason": "陆川具备“RAG”且为工程师，但也寻找工程师，尚未签到"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.7268,
+        "needBA": 0.244
+      },
+      "reason": "沈律具备“RAG 知识库”，但同为创始人且也寻找工程师"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 3,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 1
+}

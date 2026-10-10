@@ -1,0 +1,207 @@
+{
+  "name": "技术需求切换：RAG 知识库",
+  "eventId": "ai-agent-night",
+  "technical": "RAG 知识库",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "RAG 知识库"
+    ]
+  },
+  "localMs": 21,
+  "local": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "江尧公开了RAG 知识库经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.857,
+        "needBA": 0.175
+      },
+      "reason": "沈律的RAG 知识库经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.6153600000000001,
+        "needBA": 0
+      },
+      "reason": "齐木的RAG经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从裴川的端侧推理聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "llmMs": 26081,
+  "remote": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.9059999999999999
+      },
+      "reason": "许棠擅长RAG 知识库，寻求全职加入企业知识库早期项目"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.9179999999999999
+      },
+      "reason": "江尧擅长RAG 知识库，期待有客户场景的早期项目"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 76,
+      "factors": {
+        "needAB": 0.750144,
+        "needBA": 0.45599999999999996
+      },
+      "reason": "齐木掌握RAG并寻找招聘者，可探讨早期项目的算法岗位"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 69,
+      "factors": {
+        "needAB": 0.6908,
+        "needBA": 0.25
+      },
+      "reason": "沈律具备RAG 知识库经验，可交流企业场景验证与客户需求"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 69,
+      "factors": {
+        "needAB": 0.750144,
+        "needBA": 0.156
+      },
+      "reason": "陆川掌握RAG且从事算法工程，可交流知识库技术实验"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 3,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 1
+}

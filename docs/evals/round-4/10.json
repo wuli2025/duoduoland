@@ -1,0 +1,203 @@
+{
+  "name": "想加入早期 AI 项目的大模型工程师",
+  "eventId": "demo-day",
+  "intent": {
+    "seekRoles": [
+      "创始人"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "技术",
+      "RAG原型",
+      "推理部署"
+    ],
+    "city": "",
+    "cooperation": [
+      "早期员工",
+      "联合创始人"
+    ],
+    "availability": [
+      "全职"
+    ]
+  },
+  "localMs": 36,
+  "local": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0.825
+      },
+      "reason": "沈律公开了法律产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "乔南关注Agent；你找创始人，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "可以找程砚聊LLM，TA 也希望认识工程师。"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.6083333333333334
+      },
+      "reason": "林昭公开了金融产品经验，也希望认识工程师。"
+    },
+    {
+      "id": "person-66",
+      "public": {
+        "profile": {
+          "name": "孟舒",
+          "title": "AI 医疗创始人"
+        }
+      },
+      "score": 80,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.5
+      },
+      "reason": "孟舒公开了医疗产品经验，也希望认识工程师。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "llmMs": 26056,
+  "remote": [
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 94,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.9179999999999999
+      },
+      "reason": "沈律寻找RAG与Agent工程师，律所客户渠道可与技术互补。"
+    },
+    {
+      "id": "person-62",
+      "public": {
+        "profile": {
+          "name": "乔南",
+          "title": "AI Agent 创始人"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9059999999999999,
+        "needBA": 0.8999999999999999
+      },
+      "reason": "乔南寻找全职技术伙伴，海外客户渠道可与Agent编排能力互补。"
+    },
+    {
+      "id": "person-61",
+      "public": {
+        "profile": {
+          "name": "程砚",
+          "title": "大模型应用创始人"
+        }
+      },
+      "score": 91,
+      "factors": {
+        "needAB": 0.8999999999999999,
+        "needBA": 0.8939999999999999
+      },
+      "reason": "程砚有付费客户和企业客户渠道，正找全职技术伙伴共建早期项目。"
+    },
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.7632000000000001,
+        "needBA": 0.934
+      },
+      "reason": "夏青做Agent且寻找工程师，产品经验可与你的技术能力互补。"
+    },
+    {
+      "id": "person-78",
+      "public": {
+        "profile": {
+          "name": "林昭",
+          "title": "AI 金融创始人"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.8700000000000001,
+        "needBA": 0.7653333333333334
+      },
+      "reason": "林昭寻找工程师共建金融研究助手，金融行业数据可支持应用开发。"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top5 的创始人数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "reasonRepairs": [],
+  "cache": "hit",
+  "cacheMs": 1
+}

@@ -1,0 +1,2 @@
+{"event":"listen_error","port":8787,"correlationId":"eb242d65-8fc1-4b7d-8e60-4c910a0f49e5","operation":"listen","status":"error","code":"PORT_IN_USE","durationMs":14,"causeCode":"EADDRINUSE"}
+{"event":"listening","url":"http://127.0.0.1:8788"}

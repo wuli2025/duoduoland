@@ -1,0 +1,54 @@
+{
+  "checks": [
+    "解析男朋友/相仿年龄/户外；拒绝授权后不展示结果、不请求重排",
+    "AI之夜真实模型返回2位男性；每卡与详情展示fitReason；不足5人的真实人数及活动建议",
+    "城市徒步真实精排5位，兴趣与交友信息公开；跨场次单独授权",
+    "名片编辑敏感字段提示、结构化输入；职业名片不能公开恋爱字段",
+    "file直接本地计算，2位合格候选与共同兴趣fitReason，无HTTP请求",
+    "离开设置页取消意图请求，精排不被旧解析占满并发槽"
+  ],
+  "meta": [
+    {
+      "cache": "miss",
+      "durationMs": 9157,
+      "upstreamMs": 9155,
+      "model": "gpt-6-astra",
+      "cached": false,
+      "cachedAt": "2026-10-09T02:32:00.216Z",
+      "completedAt": "2026-10-09T02:32:00.216Z",
+      "correlationId": "97d487f3-9c41-4bf9-aad6-e1e1834116d6",
+      "sourceCorrelationId": "97d487f3-9c41-4bf9-aad6-e1e1834116d6",
+      "repairs": [],
+      "dropped": []
+    },
+    {
+      "cache": "miss",
+      "durationMs": 30666,
+      "upstreamMs": 30664,
+      "model": "gpt-6-astra",
+      "cached": false,
+      "cachedAt": "2026-10-09T02:32:31.618Z",
+      "completedAt": "2026-10-09T02:32:31.618Z",
+      "correlationId": "536c7041-9581-44ad-9b0f-acac9a618f41",
+      "sourceCorrelationId": "536c7041-9581-44ad-9b0f-acac9a618f41",
+      "repairs": [],
+      "dropped": []
+    }
+  ],
+  "pageErrors": [],
+  "url": "http://127.0.0.1:8788",
+  "upstreamEvidence": [
+    {
+      "correlationId": "97d487f3-9c41-4bf9-aad6-e1e1834116d6",
+      "operation": "rerank",
+      "status": "ok",
+      "durationMs": 9155
+    },
+    {
+      "correlationId": "536c7041-9581-44ad-9b0f-acac9a618f41",
+      "operation": "rerank",
+      "status": "ok",
+      "durationMs": 30664
+    }
+  ]
+}

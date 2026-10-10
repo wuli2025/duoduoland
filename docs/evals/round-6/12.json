@@ -1,0 +1,210 @@
+{
+  "name": "技术需求切换：RAG 知识库",
+  "eventId": "ai-agent-night",
+  "technical": "RAG 知识库",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "RAG 知识库"
+    ]
+  },
+  "localMs": 31,
+  "local": [
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.66
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 86,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.66
+      },
+      "reason": "江尧公开了RAG 知识库经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 74,
+      "factors": {
+        "needAB": 0.857,
+        "needBA": 0.13999999999999999
+      },
+      "reason": "沈律的RAG 知识库经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.6153600000000001,
+        "needBA": 0
+      },
+      "reason": "齐木的RAG经验值得聊聊，符合你找工程师的方向。"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.66
+      },
+      "reason": "从秦朗的MLOps聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "llmMs": 23564,
+  "remote": [
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.852
+      },
+      "reason": "江尧掌握RAG 知识库，与你的企业客户渠道互补"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9726,
+        "needBA": 0.834
+      },
+      "reason": "许棠掌握RAG 知识库，可全职与你共建早期项目"
+    },
+    {
+      "id": "person-51",
+      "public": {
+        "profile": {
+          "name": "齐木",
+          "title": "算法工程师（应届生）"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.744144,
+        "needBA": 0.42
+      },
+      "reason": "齐木可提供RAG技术，求职方向与你招募早期员工契合"
+    },
+    {
+      "id": "person-75",
+      "public": {
+        "profile": {
+          "name": "沈律",
+          "title": "AI 法律创始人"
+        }
+      },
+      "score": 73,
+      "factors": {
+        "needAB": 0.7567999999999999,
+        "needBA": 0.266
+      },
+      "reason": "沈律掌握RAG 知识库，可与你交流企业场景验证"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.738144,
+        "needBA": 0.162
+      },
+      "reason": "陆川掌握RAG，可与你探讨知识库检索的技术实现"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 3,
+    "mutual": 3,
+    "pass": true,
+    "privacy": true,
+    "wording": true,
+    "ordered": true,
+    "expectation": "Top3 的RAG 知识库工程师数量 ≥ 2"
+  },
+  "evidenceCheck": true,
+  "addressCheck": true,
+  "reasonRepairs": [],
+  "dropped": [],
+  "cache": "hit",
+  "cacheMs": 0
+}

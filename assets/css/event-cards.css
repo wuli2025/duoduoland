@@ -1,0 +1,101 @@
+.event-card {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  overflow: hidden;
+  transition:
+    transform 180ms,
+    box-shadow 180ms;
+}
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.event-card-cover {
+  aspect-ratio: 16/9;
+  border-radius: 15px 15px 0 0;
+}
+.event-card-cover-wrap {
+  position: relative;
+}
+.event-card-category {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  background: #ffffffeb;
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-size: var(--text-xs);
+}
+.event-card-body {
+  padding: 17px 18px;
+}
+.event-card-date {
+  color: var(--muted);
+  font-size: var(--text-xs);
+  letter-spacing: 0.4px;
+}
+.event-card h3 {
+  font-size: var(--text-card);
+  line-height: 1.6;
+  min-height: 3.2em;
+  margin: 7px 0 9px;
+  display: -webkit-box;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.event-card-location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+.event-card-location .icon {
+  width: 13px;
+  height: 13px;
+}
+.event-card-company {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: var(--text-xs);
+  padding: 14px 0;
+  margin-top: 1px;
+}
+.event-card-company .logos {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+.event-card-company .icon {
+  width: 12px;
+  height: 12px;
+  color: var(--muted);
+}
+.event-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+.event-card-bottom strong {
+  font-size: var(--text-body);
+  color: var(--ink);
+}
+.event-card-related {
+  margin-top: 11px;
+  color: var(--muted);
+  font-size: var(--text-xs);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.event-card-related .icon {
+  height: 13px;
+  width: 13px;
+}

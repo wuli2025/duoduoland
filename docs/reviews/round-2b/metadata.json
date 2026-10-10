@@ -1,0 +1,93 @@
+{
+  "started_at": "2026-10-08T08:58:48.353541+00:00",
+  "status": "REVIEW_RECEIVED",
+  "attempts": [
+    {
+      "cli": "C:\\Users\\mi\\.grok\\bin\\grok.EXE",
+      "status": "SUCCESS",
+      "version": "grok 1.0.46 (2765805b9442)",
+      "exit_code": 0
+    }
+  ],
+  "requested_model": null,
+  "reasoning_effort": null,
+  "files": [
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-2-brief.md",
+      "bytes": 2115,
+      "lines": 20,
+      "sha256": "7fe1e86325560e2a0e83e8856edb853c23da82c27cbb0b7ffbc5b1caa1304bac"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\docs\\reviews\\round-1\\disposition.md",
+      "bytes": 6572,
+      "lines": 42,
+      "sha256": "c475925835e298124f5fc7916d71229a15b5fdf4fbdbd8437d644423d6e627c2"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\matcher.js",
+      "bytes": 14046,
+      "lines": 368,
+      "sha256": "d71d77f5c2610c05f2aa8a7a438749eda74cede7c43440808e40f301bf272303"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\service.js",
+      "bytes": 4079,
+      "lines": 118,
+      "sha256": "8fb8036d177b8f644b540517fcba4765b598d04115240b3eea1751efb4821eae"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\core\\store.js",
+      "bytes": 2391,
+      "lines": 76,
+      "sha256": "078ab9252f7a210631b427ca4b287edde8ec2aa9687295747a8925c52e766527"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\config\\matching.js",
+      "bytes": 1202,
+      "lines": 45,
+      "sha256": "741aca4a4929fc4d67b28f9090bb413c3b6a40287362795641444019b24b9eda"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\data\\ai-people.js",
+      "bytes": 9993,
+      "lines": 78,
+      "sha256": "838865c75e6713f21d7331883b9da625018a9293e67caf7f3d4101396ac35cfa"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\src\\ui\\pages\\match.js",
+      "bytes": 10817,
+      "lines": 225,
+      "sha256": "d23f69f61b50f578eaee9636c22aff8e0d593399608fcb75b1058766f6eed1b4"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\matcher.test.js",
+      "bytes": 8350,
+      "lines": 254,
+      "sha256": "e7f4f16454060caa33a5838f684e44529b3e3d3bdf7195fdef3da40bf75fe875"
+    },
+    {
+      "path": "C:\\Users\\mi\\Desktop\\BonjourAI-Web\\tests\\round3.test.js",
+      "bytes": 4986,
+      "lines": 87,
+      "sha256": "e0b89606519e1fae9d5b29a5a003529ca49d9cab41d0c4f0e2902d22f38841fa"
+    }
+  ],
+  "prompt_sha256": "0e8babb493f7e553ad79c4b454a3219e2ff9dd8004e29e7599510de25ebe5403",
+  "prompt_bytes": 72859,
+  "cli": "C:\\Users\\mi\\.grok\\bin\\grok.EXE",
+  "version": "grok 1.0.46 (2765805b9442)",
+  "model_usage": {
+    "grok-4.7-build": {
+      "inputTokens": 41463,
+      "outputTokens": 28556,
+      "cacheReadInputTokens": 1664,
+      "cacheCreationInputTokens": 0,
+      "modelCalls": 1,
+      "costUSD": 0.08673196
+    }
+  },
+  "session_id": "01a11abc-93ec-7780-8485-31dd1555f740",
+  "request_id": "e1e187fc-9ca5-4716-bee2-efebfa57f034",
+  "finished_at": "2026-10-08T09:05:52.349461+00:00"
+}

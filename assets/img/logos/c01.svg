@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c01-title">
+  <title id="c01-title">折序 — 虚构公司标记</title>
+  <desc>单色几何：两枚错开的折角与小方块。手写 SVG，无外部依赖。</desc>
+  <path d="M28 88V30h42v12H40v46Z" fill="#242824"/>
+  <path d="M58 86V58h42v42H86V72H72v14Z" fill="#242824"/>
+  <path d="M84 28h16v16H84Z" fill="#242824"/>
+</svg>

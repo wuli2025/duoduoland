@@ -1,0 +1,11 @@
+{"event":"listen_error","port":8787,"correlationId":"10fab415-1bb5-42a1-8e0a-681031dfea9f","operation":"listen","status":"error","code":"PORT_IN_USE","durationMs":14,"causeCode":"EADDRINUSE"}
+{"event":"listening","url":"http://127.0.0.1:8788"}
+{"correlationId":"c99cabed-d48a-41c3-9de9-773376132c46","operation":"http","status":"error","code":"NOT_FOUND","durationMs":1}
+{"correlationId":"d73b7389-76d1-405b-9cd3-6d862208a7e9","operation":"http","status":"error","code":"NOT_FOUND","durationMs":1}
+{"correlationId":"404de609-2f68-4f7d-8034-7e9c0e8d9a74","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"f81c0da4-3c44-4f40-a261-903339c54fc6","operation":"http","status":"error","code":"NOT_FOUND","durationMs":0}
+{"correlationId":"36782085-0c90-4119-8017-261c7172c54f","operation":"http","status":"error","code":"NOT_FOUND","durationMs":1}
+{"correlationId":"97d487f3-9c41-4bf9-aad6-e1e1834116d6","operation":"rerank","status":"ok","durationMs":9155}
+{"correlationId":"97d487f3-9c41-4bf9-aad6-e1e1834116d6","operation":"rerank-cache","status":"miss","durationMs":9157}
+{"correlationId":"536c7041-9581-44ad-9b0f-acac9a618f41","operation":"rerank","status":"ok","durationMs":30664}
+{"correlationId":"536c7041-9581-44ad-9b0f-acac9a618f41","operation":"rerank-cache","status":"miss","durationMs":30666}

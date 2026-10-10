@@ -1,0 +1,188 @@
+{
+  "name": "找工作的应届生",
+  "eventId": "ai-agent-night",
+  "intent": {
+    "seekRoles": [
+      "招聘者"
+    ],
+    "seekIndustries": [
+      "Agent"
+    ],
+    "offer": [
+      "技术"
+    ],
+    "city": "上海"
+  },
+  "localMs": 29,
+  "local": [
+    {
+      "id": "person-52",
+      "public": {
+        "profile": {
+          "name": "周棠",
+          "title": "校园招聘经理"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "可以找周棠聊校招，TA 也希望认识学生。"
+    },
+    {
+      "id": "person-23",
+      "public": {
+        "profile": {
+          "name": "梁音",
+          "title": "HR 总监"
+        }
+      },
+      "score": 70,
+      "factors": {
+        "needAB": 0.65,
+        "needBA": 0
+      },
+      "reason": "你在找招聘者，梁音公开了校园招聘这一专长。"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁",
+          "title": "产品总监"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 0.35
+      },
+      "reason": "孙宁公开的产品策略是一个交流起点。"
+    },
+    {
+      "id": "person-40",
+      "public": {
+        "profile": {
+          "name": "韩予",
+          "title": "数据科学家"
+        }
+      },
+      "score": 67,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 0.35
+      },
+      "reason": "韩予公开的因果推断是一个交流起点。"
+    },
+    {
+      "id": "person-28",
+      "public": {
+        "profile": {
+          "name": "白露",
+          "title": "全栈工程师"
+        }
+      },
+      "score": 66,
+      "factors": {
+        "needAB": 0.35,
+        "needBA": 0.35
+      },
+      "reason": "白露公开的TypeScript是一个交流起点。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 1,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的招聘者数量 ≥ 2"
+  },
+  "llmMs": 25322,
+  "remote": [
+    {
+      "id": "person-52",
+      "public": {
+        "profile": {
+          "name": "周棠",
+          "title": "校园招聘经理"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.988,
+        "needBA": 0.982
+      },
+      "reason": "周棠提供“算法招聘”和校招岗位，同城同行且寻找学生"
+    },
+    {
+      "id": "person-23",
+      "public": {
+        "profile": {
+          "name": "梁音",
+          "title": "HR 总监"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.806,
+        "needBA": 0.522
+      },
+      "reason": "梁音擅长“校园招聘”，明确招聘算法及应届毕业生"
+    },
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 72,
+      "factors": {
+        "needAB": 0.5539999999999999,
+        "needBA": 0.614
+      },
+      "reason": "夏青提供“产品经验”并寻找工程师，已有付费客户"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁",
+          "title": "产品总监"
+        }
+      },
+      "score": 63,
+      "factors": {
+        "needAB": 0.482,
+        "needBA": 0.278
+      },
+      "reason": "孙宁提供“岗位”且同属Agent，但寻找产品经理"
+    },
+    {
+      "id": "person-14",
+      "public": {
+        "profile": {
+          "name": "陆川",
+          "title": "算法工程师"
+        }
+      },
+      "score": 52,
+      "factors": {
+        "needAB": 0.308,
+        "needBA": 0.5
+      },
+      "reason": "陆川拥有“Agent”技能并寻找工程师，但未提供岗位"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 2,
+    "mutual": 1,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的招聘者数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 1
+}

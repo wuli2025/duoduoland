@@ -1,0 +1,202 @@
+{
+  "name": "技术需求切换：多模态视频生成",
+  "eventId": "ai-agent-night",
+  "technical": "多模态视频生成",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ],
+    "seekSkills": [
+      "多模态视频生成"
+    ]
+  },
+  "localMs": 39,
+  "local": [
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.825
+      },
+      "reason": "可以找陆望聊多模态视频生成，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-77",
+      "public": {
+        "profile": {
+          "name": "贺新",
+          "title": "多模态算法工程师（应届生）"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.9615,
+        "needBA": 0.5
+      },
+      "reason": "贺新关注多模态视频生成；你找工程师，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从江尧的Agent 编排聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 67,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从秦朗的MLOps聊起，看看彼此的实践。"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 68,
+      "factors": {
+        "needAB": 0.18149999999999997,
+        "needBA": 0.825
+      },
+      "reason": "从裴川的端侧推理聊起，看看彼此的实践。"
+    }
+  ],
+  "localCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的多模态视频生成工程师数量 ≥ 2"
+  },
+  "llmMs": 28784,
+  "remote": [
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 93,
+      "factors": {
+        "needAB": 0.9786,
+        "needBA": 0.8820000000000001
+      },
+      "reason": "陆望具备“多模态视频生成”，愿全职加入早期团队"
+    },
+    {
+      "id": "person-77",
+      "public": {
+        "profile": {
+          "name": "贺新",
+          "title": "多模态算法工程师（应届生）"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 0.9546,
+        "needBA": 0.746
+      },
+      "reason": "贺新具备“多模态视频生成”，全职早期员工条件相符"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 63,
+      "factors": {
+        "needAB": 0.3066,
+        "needBA": 0.8580000000000001
+      },
+      "reason": "江尧提供“Agent产品交付”，需要客户场景但缺视频生成技能"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 58,
+      "factors": {
+        "needAB": 0.28259999999999996,
+        "needBA": 0.738
+      },
+      "reason": "秦朗提供“训练平台”，可补工程能力但非视频生成专长"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 59,
+      "factors": {
+        "needAB": 0.2706,
+        "needBA": 0.8340000000000001
+      },
+      "reason": "许棠擅长“RAG 知识库”，契合企业服务但非视频生成"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 2,
+    "mutual": 2,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top3 的多模态视频生成工程师数量 ≥ 2"
+  },
+  "cache": "hit",
+  "cacheMs": 1
+}

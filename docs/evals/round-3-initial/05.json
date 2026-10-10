@@ -1,0 +1,186 @@
+{
+  "name": "找客户的律师",
+  "eventId": "founders-brunch",
+  "intent": {
+    "seekRoles": [
+      "创始人"
+    ],
+    "seekIndustries": [],
+    "offer": [
+      "法律咨询"
+    ],
+    "city": "上海"
+  },
+  "localMs": 18,
+  "local": [
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 76,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "夏青的产品策略经验值得聊聊，符合你找创始人的方向。"
+    },
+    {
+      "id": "person-46",
+      "public": {
+        "profile": {
+          "name": "方硕",
+          "title": "机器人公司 CEO"
+        }
+      },
+      "score": 74,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "方硕的机器人经验值得聊聊，符合你找创始人的方向。"
+    },
+    {
+      "id": "person-18",
+      "public": {
+        "profile": {
+          "name": "蒋可",
+          "title": "跨境品牌创始人"
+        }
+      },
+      "score": 74,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "你在找创始人，蒋可公开了跨境电商这一专长。"
+    },
+    {
+      "id": "person-50",
+      "public": {
+        "profile": {
+          "name": "安琪",
+          "title": "医疗科技创始人"
+        }
+      },
+      "score": 73,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "你在找创始人，安琪公开了医疗产品这一专长。"
+    },
+    {
+      "id": "person-42",
+      "public": {
+        "profile": {
+          "name": "季川",
+          "title": "餐饮连锁创始人"
+        }
+      },
+      "score": 72,
+      "factors": {
+        "needAB": 1,
+        "needBA": 0
+      },
+      "reason": "季川的门店管理经验值得聊聊，符合你找创始人的方向。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 3"
+  },
+  "llmMs": 25252,
+  "remote": [
+    {
+      "id": "person-55",
+      "public": {
+        "profile": {
+          "name": "夏青",
+          "title": "AI 创业者 / 产品联合创始人"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.072
+      },
+      "reason": "夏青是联合创始人，具备“产品策略”，未表达法律需求"
+    },
+    {
+      "id": "person-50",
+      "public": {
+        "profile": {
+          "name": "安琪",
+          "title": "医疗科技创始人"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.06
+      },
+      "reason": "安琪是创始人，具备“临床合作”，本场寻找医生"
+    },
+    {
+      "id": "person-42",
+      "public": {
+        "profile": {
+          "name": "季川",
+          "title": "餐饮连锁创始人"
+        }
+      },
+      "score": 80,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.06
+      },
+      "reason": "季川是创始人，提供“门店场景”，寻找供应链专家"
+    },
+    {
+      "id": "person-18",
+      "public": {
+        "profile": {
+          "name": "蒋可",
+          "title": "跨境品牌创始人"
+        }
+      },
+      "score": 81,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.06
+      },
+      "reason": "蒋可是创始人，提供“项目”，本场寻找工程师"
+    },
+    {
+      "id": "person-09",
+      "public": {
+        "profile": {
+          "name": "吴昊",
+          "title": "跨境电商创始人"
+        }
+      },
+      "score": 75,
+      "factors": {
+        "needAB": 0.97,
+        "needBA": 0.06
+      },
+      "reason": "吴昊是创始人，提供“场景”，已报名但未签到"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的创始人数量 ≥ 3"
+  },
+  "cache": "hit",
+  "cacheMs": 1
+}

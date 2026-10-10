@@ -1,0 +1,6 @@
+{"event":"listen_error","code":"PORT_IN_USE","port":8787}
+{"event":"listening","url":"http://127.0.0.1:8788"}
+{"correlationId":"d27c7a1d-aafe-4a2e-a6ac-682af6bb2f45","operation":"rerank","status":"error","code":"LLM_ABORTED","durationMs":1203}
+{"correlationId":"17c23d3d-1da5-477a-b41b-35b94addc682","operation":"rerank","status":"ok","durationMs":27890}
+{"correlationId":"17c23d3d-1da5-477a-b41b-35b94addc682","operation":"rerank-cache","status":"miss","durationMs":27892}
+{"correlationId":"6e9996dc-acd6-41c7-8178-cd5dd6a41374","operation":"rerank-cache","status":"hit","durationMs":0}

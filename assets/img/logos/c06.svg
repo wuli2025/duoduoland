@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c06-title">
+  <title id="c06-title">砾间 — 虚构公司标记</title>
+  <desc>双色几何：两条错位桥形轮廓与小圆点。手写 SVG，无外部依赖。</desc>
+  <path d="M24 86V38h30v18H38v30ZM104 42v48H74V72h16V42Z" fill="#2A2D28"/>
+  <path d="M52 62h24v12H52Z" fill="#2A2D28"/>
+  <circle cx="66" cy="32" r="8" fill="#CFAD4B"/>
+</svg>

@@ -1,0 +1,198 @@
+{
+  "name": "寻找技术合伙人的 AI 应用创业者",
+  "eventId": "ai-agent-night",
+  "intent": {
+    "seekRoles": [
+      "工程师"
+    ],
+    "seekIndustries": [
+      "LLM",
+      "Agent"
+    ],
+    "offer": [
+      "项目",
+      "客户渠道",
+      "融资经验"
+    ],
+    "city": "上海",
+    "availability": [
+      "全职"
+    ],
+    "cooperation": [
+      "联合创始人",
+      "早期员工"
+    ]
+  },
+  "localMs": 22,
+  "local": [
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "裴川公开了端侧推理经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "江尧公开了Agent 编排经验，也希望认识创始人。"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "可以找秦朗聊MLOps，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "可以找陆望聊多模态视频生成，TA 也希望认识创始人。"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 85,
+      "factors": {
+        "needAB": 0.825,
+        "needBA": 0.825
+      },
+      "reason": "可以找许棠聊RAG 知识库，TA 也希望认识创始人。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的工程师数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "llmMs": 27652,
+  "remote": [
+    {
+      "id": "person-72",
+      "public": {
+        "profile": {
+          "name": "江尧",
+          "title": "Agent 工程师 / AI 产品工程师"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.9119999999999999,
+        "needBA": 0.9059999999999999
+      },
+      "reason": "江尧擅长「Agent 编排」，寻找企业客户场景，全职合作相符"
+    },
+    {
+      "id": "person-64",
+      "public": {
+        "profile": {
+          "name": "许棠",
+          "title": "RAG 工程师"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 0.8700000000000001,
+        "needBA": 0.8880000000000001
+      },
+      "reason": "许棠擅长「RAG 知识库」，寻找企业早期项目，全职条件相符"
+    },
+    {
+      "id": "person-63",
+      "public": {
+        "profile": {
+          "name": "裴川",
+          "title": "推理加速工程师"
+        }
+      },
+      "score": 84,
+      "factors": {
+        "needAB": 0.828,
+        "needBA": 0.81
+      },
+      "reason": "裴川擅长「端侧推理」，愿全职股权合伙，制造场景待确认"
+    },
+    {
+      "id": "person-70",
+      "public": {
+        "profile": {
+          "name": "秦朗",
+          "title": "MLOps 工程师"
+        }
+      },
+      "score": 83,
+      "factors": {
+        "needAB": 0.81,
+        "needBA": 0.792
+      },
+      "reason": "秦朗提供「MLOps」，全职薪资条件相符，制造客户尚待确认"
+    },
+    {
+      "id": "person-67",
+      "public": {
+        "profile": {
+          "name": "陆望",
+          "title": "多模态算法工程师"
+        }
+      },
+      "score": 82,
+      "factors": {
+        "needAB": 0.8160000000000001,
+        "needBA": 0.768
+      },
+      "reason": "陆望擅长「多模态视频生成」，全职条件相符，内容方向待确认"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 5,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的工程师数量 ≥ 3，Top5双向对口AI人选 ≥ 3"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

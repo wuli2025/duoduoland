@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c04-title">
+  <title id="c04-title">序屿 — 虚构公司标记</title>
+  <desc>双色几何：三个相扣但不闭合的阶梯形模块。手写 SVG，无外部依赖。</desc>
+  <path d="M24 30h34v14H38v20H24ZM70 30h34v34H90V44H70ZM46 76h16v14h28V76h14v28H46Z" fill="#272C29"/>
+  <path d="M48 54h28v16H48Z" fill="#A78263"/>
+</svg>

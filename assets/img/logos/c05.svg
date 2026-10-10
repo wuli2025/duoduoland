@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c05-title">
+  <title id="c05-title">弥格 — 虚构公司标记</title>
+  <desc>单色几何：不对称双弧与方形端点。手写 SVG，无外部依赖。</desc>
+  <path d="M28 84V56c0-15 10-25 24-25s24 10 24 25v20c0 12 8 20 20 20" fill="none" stroke="#333A32" stroke-width="12" stroke-linecap="butt"/>
+  <path d="M45 74h16v16H45ZM88 30h16v16H88Z" fill="#333A32"/>
+</svg>

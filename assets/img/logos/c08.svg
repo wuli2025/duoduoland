@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="c08-title">
+  <title id="c08-title">木纬 — 虚构公司标记</title>
+  <desc>双色几何：交错的两组折线构成独立模块。手写 SVG，无外部依赖。</desc>
+  <path d="M28 94V34h18l36 48V34h18v60H80L44 46v48Z" fill="#2D312D"/>
+  <path d="M54 25h20v12H54ZM54 91h20v12H54Z" fill="#B29269"/>
+</svg>

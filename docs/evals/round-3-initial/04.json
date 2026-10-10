@@ -1,0 +1,177 @@
+{
+  "name": "想交朋友的设计师",
+  "eventId": "slow-reading",
+  "intent": {
+    "seekRoles": [],
+    "seekIndustries": [
+      "阅读"
+    ],
+    "offer": [
+      "阅读",
+      "摄影"
+    ],
+    "city": "上海"
+  },
+  "localMs": 13,
+  "local": [
+    {
+      "id": "person-01",
+      "public": {
+        "profile": {
+          "name": "陈屿"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "你在找同行，陈屿公开了阅读这一专长。"
+    },
+    {
+      "id": "person-06",
+      "public": {
+        "profile": {
+          "name": "孙宁"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "孙宁的咖啡经验值得聊聊，符合你找同行的方向。"
+    },
+    {
+      "id": "person-15",
+      "public": {
+        "profile": {
+          "name": "苏晴"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "苏晴的音乐经验值得聊聊，符合你找同行的方向。"
+    },
+    {
+      "id": "person-16",
+      "public": {
+        "profile": {
+          "name": "Daniel"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "你在找同行，Daniel公开了阅读这一专长。"
+    },
+    {
+      "id": "person-12",
+      "public": {
+        "profile": {
+          "name": "许安"
+        }
+      },
+      "score": 87,
+      "factors": {
+        "needAB": 1,
+        "needBA": 1
+      },
+      "reason": "你在找同行，许安公开了咖啡这一专长。"
+    }
+  ],
+  "localCheck": {
+    "hit": 5,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的阅读数量 ≥ 3"
+  },
+  "llmMs": 26955,
+  "remote": [
+    {
+      "id": "person-01",
+      "public": {
+        "profile": {
+          "name": "陈屿"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.976
+      },
+      "reason": "陈屿提供“阅读”，双方寻找阅读交流且同好摄影"
+    },
+    {
+      "id": "person-16",
+      "public": {
+        "profile": {
+          "name": "Daniel"
+        }
+      },
+      "score": 89,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.976
+      },
+      "reason": "Daniel提供“阅读”，双方阅读供需明确契合"
+    },
+    {
+      "id": "person-15",
+      "public": {
+        "profile": {
+          "name": "苏晴"
+        }
+      },
+      "score": 88,
+      "factors": {
+        "needAB": 0.8979999999999999,
+        "needBA": 0.976
+      },
+      "reason": "苏晴提供“音乐”，寻找阅读交流且同好阅读摄影"
+    },
+    {
+      "id": "person-07",
+      "public": {
+        "profile": {
+          "name": "何夕"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.976
+      },
+      "reason": "何夕提供“阅读”，双方寻找阅读交流且同好摄影"
+    },
+    {
+      "id": "person-13",
+      "public": {
+        "profile": {
+          "name": "沈禾"
+        }
+      },
+      "score": 92,
+      "factors": {
+        "needAB": 0.976,
+        "needBA": 0.976
+      },
+      "reason": "沈禾提供“阅读”，双方寻找阅读交流且同好摄影"
+    }
+  ],
+  "remoteCheck": {
+    "hit": 5,
+    "mutual": 0,
+    "pass": true,
+    "privacy": true,
+    "expectation": "Top5 的阅读数量 ≥ 3"
+  },
+  "cache": "hit",
+  "cacheMs": 0
+}

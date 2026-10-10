@@ -1,0 +1,119 @@
+.modal-backdrop:has(.jobs-drawer) {
+  justify-content: flex-end;
+  padding: 20px;
+}
+.jobs-drawer {
+  width: 600px;
+  height: calc(100vh - 40px);
+  max-height: none;
+  border-radius: 20px;
+}
+.jobs-detail-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+.jobs-detail-top strong {
+  color: var(--salary);
+  font-size: var(--text-lead);
+}
+.jobs-detail-section {
+  margin-top: 30px;
+}
+.jobs-detail-section h3 {
+  font-size: var(--text-body);
+  margin-bottom: 16px;
+}
+.jobs-detail-section ol {
+  padding-left: 20px;
+  color: var(--muted);
+  line-height: 2;
+  font-size: var(--text-xs);
+}
+.jobs-detail-section li {
+  padding: 4px 0;
+}
+.jobs-detail-section .section-head {
+  align-items: center;
+  margin-bottom: 8px;
+}
+.jobs-detail-section .section-head h3 {
+  margin: 0;
+}
+.jobs-fit-score {
+  background: #f4f1db;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: var(--text-sm);
+}
+.jobs-detail-section > p {
+  font-size: var(--text-xs);
+}
+.jobs-requirements {
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+.jobs-requirements > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 0;
+  font-size: var(--text-xs);
+}
+.jobs-requirements .icon {
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
+}
+.jobs-requirements small {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+.jobs-referrals {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.jobs-referrals button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  padding: 10px 0;
+}
+.jobs-referrals button > span:not(.avatar) {
+  flex: 1;
+}
+.jobs-referrals b {
+  font-size: var(--text-sm);
+}
+.jobs-referrals small {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--muted);
+  margin-top: 4px;
+}
+.jobs-referrals > button > .icon {
+  color: var(--muted);
+  width: 18px;
+}
+.jobs-detail-actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  margin: 24px -28px -28px;
+  padding: 18px 28px;
+  border-top: 1px solid var(--line);
+  background: white;
+  display: flex;
+  gap: 14px;
+}
+.jobs-detail-actions .btn {
+  flex: 1;
+}
